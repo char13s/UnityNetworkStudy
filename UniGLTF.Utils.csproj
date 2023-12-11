@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F5D7D7F8-7309-F56D-DE86-6EBB09E07692}</ProjectGuid>
+    <ProjectGuid>{6F3C9171-593E-9A07-6628-D23784356B6E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UniGLTF.Utils</AssemblyName>

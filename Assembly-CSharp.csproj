@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1633E429-728B-3672-985D-24610073AC35}</ProjectGuid>
+    <ProjectGuid>{80C22AA9-40B0-9963-F1B4-B217F88541B8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -93,7 +93,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Player.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\Renderer\ArtworkCreateRenderer.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\CharacterModelExample\Scripts\Controller\LoadedCharacterModelController.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\ModelLoader.cs" />
@@ -153,7 +153,7 @@
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Browser\DefaultBrowser.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\CharacterModelExample\Scripts\Controller\CharacterModelsController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\Scripts\NetworkManagerUIMenu.cs" />
+    <Compile Include="Assets\Scripts\Network Related Scripts\NetworkManagerUIMenu.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\Core\View\Cache\LoadImageCacheStorage.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\Core\View\BaseView.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Browser\Desktop\Routes\NotFoundResponse.cs" />
@@ -163,7 +163,7 @@
     <Compile Include="Assets\VRoidSDK\Examples\Core\View\Parts\Tab.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\Core\View\RootView.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\Scripts\SendCode.cs" />
+    <Compile Include="Assets\Scripts\Network Related Scripts\SendCode.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Legacy\BrowserAuthorize\BrowserAuthorize.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\View\ArtworkMediumImage.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\CharacterModelExample\Scripts\View\CharacterModelDownloadView.cs" />
@@ -173,7 +173,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\View\Cubeman.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Browser\AndroidBrowser.cs" />
-    <Compile Include="Assets\Scripts\TestRelay.cs" />
+    <Compile Include="Assets\Scripts\Network Related Scripts\TestRelay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\Controller\ArtworkDetailController.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Localize\Key.cs" />
@@ -214,6 +214,9 @@
     <Compile Include="Assets\VRoidSDK\Examples\CharacterModelExample\Scripts\Renderer\CharacterModelPropertyRenderer.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Native\WindowsPlugin.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Localize\ILocalize.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerInputControls.cs" />
+    <Compile Include="Assets\Scripts\PlayerUIScript.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Stats.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -1436,23 +1439,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SimpleRelay.csproj">
-      <Project>{6E4BF7D3-3A0E-CC5C-F2C8-6BE015E6210B}</Project>
+      <Project>{8183E1BE-F128-258A-3328-FC575B6B9E2A}</Project>
       <Name>SimpleRelay</Name>
     </ProjectReference>
     <ProjectReference Include="VRM10.csproj">
-      <Project>{A173D184-FB60-F2BD-268E-793EC05428D5}</Project>
+      <Project>{C736B8B3-C595-51A5-F62D-442AC1262C9A}</Project>
       <Name>VRM10</Name>
     </ProjectReference>
     <ProjectReference Include="UniHumanoid.csproj">
-      <Project>{AAAC3EC3-9E2B-02E3-C55B-CE38A4AE7722}</Project>
+      <Project>{50621202-30C1-BAB5-3CB8-AD883E7ECA04}</Project>
       <Name>UniHumanoid</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
-      <Project>{CA5DFDF8-1DEC-F67B-354C-2EC5FDDBF299}</Project>
+      <Project>{C4250D2B-F2BC-FEF4-3EDD-C589495D9EC2}</Project>
       <Name>VRMShaders.GLTF.IO.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.csproj">
-      <Project>{A0F980AA-E5BB-DD47-6FB1-A7657EE154E8}</Project>
+      <Project>{19386F2F-ABAF-EA48-0857-2DF7AD02513E}</Project>
       <Name>UniGLTF</Name>
     </ProjectReference>
   </ItemGroup>

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4511995B-8CE9-BE24-AB13-62EFAAA4EBD7}</ProjectGuid>
+    <ProjectGuid>{A2B28139-9F27-A9E0-3CEB-A856B50A4D8F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VRMShaders.GLTF.IO.Tests</AssemblyName>
@@ -934,11 +934,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
-      <Project>{CA5DFDF8-1DEC-F67B-354C-2EC5FDDBF299}</Project>
+      <Project>{C4250D2B-F2BC-FEF4-3EDD-C589495D9EC2}</Project>
       <Name>VRMShaders.GLTF.IO.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Editor.csproj">
-      <Project>{024BA67E-F0B2-CE93-DA17-31B4018251A2}</Project>
+      <Project>{3B8B3351-9BC2-3B80-ADB0-B0D796303C98}</Project>
       <Name>VRMShaders.GLTF.IO.Editor</Name>
     </ProjectReference>
   </ItemGroup>

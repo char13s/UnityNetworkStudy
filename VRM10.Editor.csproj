@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{31A48862-A26C-A06A-6711-BABCEB4C73D8}</ProjectGuid>
+    <ProjectGuid>{84CF2969-EB1B-DD39-523E-BB1E613062DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VRM10.Editor</AssemblyName>
@@ -1023,35 +1023,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="VRM10.csproj">
-      <Project>{A173D184-FB60-F2BD-268E-793EC05428D5}</Project>
+      <Project>{C736B8B3-C595-51A5-F62D-442AC1262C9A}</Project>
       <Name>VRM10</Name>
     </ProjectReference>
     <ProjectReference Include="VrmLib.csproj">
-      <Project>{B92B2155-FD93-1EE5-F889-A8DE06383CF1}</Project>
+      <Project>{1376A7B4-158F-DC14-7D51-1A65D2819AA8}</Project>
       <Name>VrmLib</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.Editor.csproj">
-      <Project>{C548C07E-F00F-0761-AEA4-B6F914ED3D3D}</Project>
+      <Project>{073D61F3-15EF-C00D-98AE-8C61E3F42857}</Project>
       <Name>UniGLTF.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.csproj">
-      <Project>{A0F980AA-E5BB-DD47-6FB1-A7657EE154E8}</Project>
+      <Project>{19386F2F-ABAF-EA48-0857-2DF7AD02513E}</Project>
       <Name>UniGLTF</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
-      <Project>{CA5DFDF8-1DEC-F67B-354C-2EC5FDDBF299}</Project>
+      <Project>{C4250D2B-F2BC-FEF4-3EDD-C589495D9EC2}</Project>
       <Name>VRMShaders.GLTF.IO.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Editor.csproj">
-      <Project>{024BA67E-F0B2-CE93-DA17-31B4018251A2}</Project>
+      <Project>{3B8B3351-9BC2-3B80-ADB0-B0D796303C98}</Project>
       <Name>VRMShaders.GLTF.IO.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UniHumanoid.csproj">
-      <Project>{AAAC3EC3-9E2B-02E3-C55B-CE38A4AE7722}</Project>
+      <Project>{50621202-30C1-BAB5-3CB8-AD883E7ECA04}</Project>
       <Name>UniHumanoid</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.Utils.csproj">
-      <Project>{F5D7D7F8-7309-F56D-DE86-6EBB09E07692}</Project>
+      <Project>{6F3C9171-593E-9A07-6628-D23784356B6E}</Project>
       <Name>UniGLTF.Utils</Name>
     </ProjectReference>
   </ItemGroup>

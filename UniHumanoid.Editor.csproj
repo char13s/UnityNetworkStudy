@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{754B5B2D-40D9-51AF-ADCC-0C25077B0842}</ProjectGuid>
+    <ProjectGuid>{57CF9691-9FB0-1C8F-0603-DEEB67FC8C6B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UniHumanoid.Editor</AssemblyName>
@@ -991,7 +991,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UniHumanoid.csproj">
-      <Project>{AAAC3EC3-9E2B-02E3-C55B-CE38A4AE7722}</Project>
+      <Project>{50621202-30C1-BAB5-3CB8-AD883E7ECA04}</Project>
       <Name>UniHumanoid</Name>
     </ProjectReference>
   </ItemGroup>

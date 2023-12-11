@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F3242F45-1563-585B-0F8B-DFA7AA4EE9DF}</ProjectGuid>
+    <ProjectGuid>{39A402B6-E9F9-1A02-CB03-EEDBCE193801}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -1306,27 +1306,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{1633E429-728B-3672-985D-24610073AC35}</Project>
+      <Project>{80C22AA9-40B0-9963-F1B4-B217F88541B8}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleRelay.csproj">
-      <Project>{6E4BF7D3-3A0E-CC5C-F2C8-6BE015E6210B}</Project>
+      <Project>{8183E1BE-F128-258A-3328-FC575B6B9E2A}</Project>
       <Name>SimpleRelay</Name>
     </ProjectReference>
     <ProjectReference Include="VRM10.csproj">
-      <Project>{A173D184-FB60-F2BD-268E-793EC05428D5}</Project>
+      <Project>{C736B8B3-C595-51A5-F62D-442AC1262C9A}</Project>
       <Name>VRM10</Name>
     </ProjectReference>
     <ProjectReference Include="UniHumanoid.csproj">
-      <Project>{AAAC3EC3-9E2B-02E3-C55B-CE38A4AE7722}</Project>
+      <Project>{50621202-30C1-BAB5-3CB8-AD883E7ECA04}</Project>
       <Name>UniHumanoid</Name>
     </ProjectReference>
     <ProjectReference Include="VRMShaders.GLTF.IO.Runtime.csproj">
-      <Project>{CA5DFDF8-1DEC-F67B-354C-2EC5FDDBF299}</Project>
+      <Project>{C4250D2B-F2BC-FEF4-3EDD-C589495D9EC2}</Project>
       <Name>VRMShaders.GLTF.IO.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="UniGLTF.csproj">
-      <Project>{A0F980AA-E5BB-DD47-6FB1-A7657EE154E8}</Project>
+      <Project>{19386F2F-ABAF-EA48-0857-2DF7AD02513E}</Project>
       <Name>UniGLTF</Name>
     </ProjectReference>
   </ItemGroup>

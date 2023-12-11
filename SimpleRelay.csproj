@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6E4BF7D3-3A0E-CC5C-F2C8-6BE015E6210B}</ProjectGuid>
+    <ProjectGuid>{8183E1BE-F128-258A-3328-FC575B6B9E2A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SimpleRelay</AssemblyName>
