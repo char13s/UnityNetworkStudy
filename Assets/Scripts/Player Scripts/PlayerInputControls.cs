@@ -21,6 +21,7 @@ public class PlayerInputControls : NetworkBehaviour
         
     }
     private void OnUm() {
+        
         anim.SetTrigger("Punch");
     }
     // Update is called once per frame

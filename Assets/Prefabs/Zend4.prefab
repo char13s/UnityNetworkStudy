@@ -3355,7 +3355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2120555107076910575
 Transform:
   m_ObjectHideFlags: 0
@@ -5814,8 +5814,9 @@ GameObject:
   - component: {fileID: 3418779045988981598}
   - component: {fileID: 3418779045988981597}
   - component: {fileID: 3418779045875716235}
-  - component: {fileID: 6316456151036692223}
   - component: {fileID: 4597320661690456316}
+  - component: {fileID: 6043543290446369074}
+  - component: {fileID: 2547385951120451675}
   m_Layer: 0
   m_Name: Zend4
   m_TagString: Untagged
@@ -6328,7 +6329,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5149072183802459452}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
@@ -6362,13 +6363,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
+  m_Height: 1.48
+  m_Radius: 0.34
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.73, z: 0}
 --- !u!114 &3418779045988981597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6422,36 +6423,6 @@ MonoBehaviour:
   analogMovement: 0
   cursorLocked: 1
   cursorInputForLook: 1
---- !u!114 &6316456151036692223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5149072183802459452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SyncPositionX: 1
-  SyncPositionY: 1
-  SyncPositionZ: 1
-  SyncRotAngleX: 0
-  SyncRotAngleY: 0
-  SyncRotAngleZ: 0
-  SyncScaleX: 0
-  SyncScaleY: 0
-  SyncScaleZ: 0
-  PositionThreshold: 0.001
-  RotAngleThreshold: 0.01
-  ScaleThreshold: 0.01
-  UseQuaternionSynchronization: 0
-  UseQuaternionCompression: 0
-  UseHalfFloatPrecision: 0
-  InLocalSpace: 0
-  Interpolate: 1
-  SlerpPosition: 0
 --- !u!114 &4597320661690456316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6465,6 +6436,64 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 8320203787761056497, guid: 6c9f4961924ed5249b9bbe6f152d729d, type: 3}
+--- !u!114 &6043543290446369074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5149072183802459452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41fa1a85a1cbd3b4e8fc03f8c04a1dd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TransitionStateInfoList:
+  - IsCrossFadeExit: 0
+    Layer: 0
+    OriginatingState: 2081823275
+    DestinationState: 1750697338
+    TransitionDuration: 0.25
+    TriggerNameHash: -316645540
+    TransitionIndex: 1
+  - IsCrossFadeExit: 0
+    Layer: 0
+    OriginatingState: 297664062
+    DestinationState: 1750697338
+    TransitionDuration: 0.25
+    TriggerNameHash: -316645540
+    TransitionIndex: 1
+  m_Animator: {fileID: 7847061230086448475}
+--- !u!114 &2547385951120451675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5149072183802459452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765cecd96c1cfce47bff9a8a32db8c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 0
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 0
+  SyncScaleX: 0
+  SyncScaleY: 0
+  SyncScaleZ: 0
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  Interpolate: 1
+  SlerpPosition: 0
 --- !u!1 &5198017676449552714
 GameObject:
   m_ObjectHideFlags: 0

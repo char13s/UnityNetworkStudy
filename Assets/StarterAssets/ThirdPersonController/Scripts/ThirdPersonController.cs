@@ -140,11 +140,7 @@ namespace StarterAssets
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
-#if ENABLE_INPUT_SYSTEM 
-            _playerInput = GetComponent<PlayerInput>();
-#else
-			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
-#endif
+
 
             AssignAnimationIDs();
 
@@ -152,16 +148,24 @@ namespace StarterAssets
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
         }
+        public override void OnNetworkSpawn() {
+            base.OnNetworkSpawn();
+            if (IsClient && IsOwner) { 
+            _playerInput = GetComponent<PlayerInput>();
+            _playerInput.enabled = true;
+            }
+        }
 
         private void Update()
         {
-            if (!IsOwner) return;
-            _hasAnimator = TryGetComponent(out _animator);
+            if (IsOwner) {
+                _hasAnimator = TryGetComponent(out _animator);
 
-            JumpAndGravity();
-            GroundedCheck();
-            
-            Move();
+                JumpAndGravity();
+                GroundedCheck();
+
+                Move();
+            }
         }
 
         private void LateUpdate()
