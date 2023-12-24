@@ -111,6 +111,7 @@
     <Compile Include="Assets\VRoidSDK\Examples\Core\Localize\Translator.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\CharacterModelExample\Scripts\View\CharacterModelPropertyView.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\View\ArtworksView.cs" />
+    <Compile Include="Assets\Scripts\PlayerUIScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Browser\IosBrowser.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\Core\Controller\ApiController.cs" />
@@ -188,6 +189,7 @@
     <Compile Include="Assets\VRoidSDK\Examples\CharacterModelExample\Scripts\View\CharacterModelThumbnail.cs" />
     <Compile Include="Assets\Move.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Browser\WindowsDesktopBrowser.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerInputControls.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\Model\ArtworkUploadModel.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Legacy\SDKConfigurations\SDKConfiguration.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\Core\Renderer\IRenderer.cs" />
@@ -213,10 +215,11 @@
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\Renderer\ArtworkDetailRenderer.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\CharacterModelExample\Scripts\Renderer\CharacterModelPropertyRenderer.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Native\WindowsPlugin.cs" />
-    <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Localize\ILocalize.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\PlayerInputControls.cs" />
-    <Compile Include="Assets\Scripts\PlayerUIScript.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Stats.cs" />
+    <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Localize\ILocalize.cs" />
+    <Compile Include="Assets\Scripts\PlayerCamera.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Player Components\HitBox.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Player1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
