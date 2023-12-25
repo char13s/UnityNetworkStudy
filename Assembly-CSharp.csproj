@@ -78,6 +78,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\CharacterModelExample\Scripts\View\GltfMaterialItem.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\Model\ArtworkDetailModel.cs" />
+    <Compile Include="Assets\Scripts\Network Related Scripts\NetworkClientTransform.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Player Components\HitBox.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets\VRoidSDK\Examples\Core\Renderer\ApiErrorRenderer.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\Routes.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\ArtworkExample\Scripts\Controller\ArtworksController.cs" />
+    <Compile Include="Assets\Scripts\Network Related Scripts\NetworkClientAnimator.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\Core\View\Resize\LoadImageFitter.cs" />
     <Compile Include="Assets\VRoidSDK\Examples\Core\View\Parts\Message.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Native\IosPlugin.cs" />
@@ -220,8 +222,6 @@
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Native\WindowsPlugin.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Stats.cs" />
     <Compile Include="Assets\VRoidSDK\Plugins\Pixiv\VroidSdk\Localize\ILocalize.cs" />
-    <Compile Include="Assets\Scripts\Network Related Scripts\NetworkClientTransform.cs" />
-    <Compile Include="Assets\Scripts\Network Related Scripts\NetworkClientAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -276,14 +276,6 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\VRoidSDK\Plugins\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_shadowcaster_fragment.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <None Include="Assets\RealToon\RealToon Shader Packages\SRP (LWRP - URP - HDRP)\LWRP\Please read before you unpack or import.txt" />
-=======
->>>>>>> parent of 173a247 (Fixed most of the materials and started using RealToon pack)
-    <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
-=======
->>>>>>> parent of 99ac62d (Added terrain tools and omg)
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\VRoidSDK\Plugins\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_define.hlsl" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
