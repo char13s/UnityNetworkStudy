@@ -73,9 +73,6 @@
     <Compile Include="Assets\VRoidSDK\Editor\AndroidManifestFile.cs" />
     <Compile Include="Assets\VRoidSDK\Editor\TutorialInfo\Scripts\Editor\VroidSdkReadmeEditor.cs" />
     <Compile Include="Assets\VRoidSDK\Editor\TutorialInfo\Scripts\VroidSdkReadme.cs" />
-    <Compile Include="Assets\RealToon\Editor\SwapShaderToRealToon.cs" />
-    <Compile Include="Assets\RealToon\Editor\RT_Welcome.cs" />
-    <Compile Include="Assets\RealToon\Editor\RealToonShaderGUI_HDRP_SRP.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
