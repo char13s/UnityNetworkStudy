@@ -14,6 +14,7 @@ public class PlayerCamera : MonoBehaviour
        
     }
     public void SetCameraParameters(GameObject obj) {
+        
         cam.m_Follow = obj.transform;
         cam.m_LookAt = obj.transform;
     }
